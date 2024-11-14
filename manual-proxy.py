@@ -215,16 +215,9 @@ async def main():
     print("Welcome to the main program!")
         
     tokens = load_tokens_from_file(TOKEN_FILE)
-
+    all_proxies = load_proxies('proxy.txt')
     while True:
-        r = requests.get("https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt", stream=True)
-        if r.status_code == 200:
-            with open('proxies.txt', 'wb') as f:
-                for chunk in r:
-                    f.write(chunk)
-            with open('proxies.txt', 'r') as file:
-                all_proxies = file.read().splitlines()
-                
+               
         for token in tokens:
             tasks = {asyncio.create_task(render_profile_info(proxy, token)): proxy for proxy in all_proxies}
 
