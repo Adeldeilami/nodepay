@@ -37,6 +37,10 @@ pip install -r requirements.txt
 ```bash
 python3 main.py
 ```
+OR (if you have npm2(recomanded))
+```bash
+pm2 start main.py
+```
 ## Expected Output
 If running correctly, you will see logs like the following:
 ```bash
