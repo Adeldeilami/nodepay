@@ -25,7 +25,7 @@
 
 ## 1. Steps to Run the Code
 ```bash
-git clone https://github.com/Zlkcyber/nodepay.git
+git clone https://github.com/Adeldeilami/nodepay.git
 cd nodepay
 ```
 
