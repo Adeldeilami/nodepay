@@ -1,25 +1,24 @@
 # Nodepay.ai
 ![Nodepay.ai](image.png)
-Nodepay.ai Bot auto ping using multyple proxy
+پینگ خودکار ربات Nodepay.ai با استفاده از چندین پروکسی
 
-Register to Nodepay.ai : [https://app.nodepay.ai/register](https://app.nodepay.ai/register?ref=Od15EPpf6UBd5qR)
+ثبت نام در Nodepay.ai : [https://app.nodepay.ai/register](https://app.nodepay.ai/register?ref=8YKFpuUnwn1QiFe)
 
 # Features
-This script is intended for running on a server using multyple proxy.
-
+این اسکریپت برای اجرا بر روی سرور با استفاده از چندین پروکسی در نظر گرفته شده است.
 ## Update 
-- each account only can connect 10 proxy
-- so the best way to farm right now is to create multy accounts
-- the script is support multy account just paste token `np_tokens.txt` each line for 1 account
-- make sure your account get **Proof of Humanhood** badge
-- Register here [https://app.nodepay.ai/](https://app.nodepay.ai/register?ref=Od15EPpf6UBd5qR)
+- هر حساب فقط می تواند 10 پروکسی را متصل کند
+- بنابراین بهترین راه برای کشاورزی در حال حاضر ایجاد چندین حساب کاربری است
+- اسکریپت از چندین حساب پشتیبانی می کند فقط رمز "np_tokens.txt" را برای هر خط برای 1 حساب جایگذاری کنید
+- مطمئن شوید که حساب شما نشان **Proof of Humanhood** را دریافت کرده است
+- Register here [https://app.nodepay.ai/](https://app.nodepay.ai/register?ref=8YKFpuUnwn1QiFe)
   
 ![image](https://github.com/user-attachments/assets/6b77e7e9-7fcc-4de0-b026-ca3d1a40146e)
 
-## Obtain Required Information
+## اطلاعات مورد نیاز را بدست آورید
 
-1. Open the link and log in to [https://app.nodepay.ai/](https://app.nodepay.ai/register?ref=Od15EPpf6UBd5qR)
-2. Press F12 to open the console and enter the code (Ctrl + Shift + i for inspection)
+1. لینک را باز کنید و وارد شوید [https://app.nodepay.ai/](https://app.nodepay.ai/register?ref=8YKFpuUnwn1QiFe)
+2. F12 را فشار دهید تا کنسول باز شود و کد را وارد کنید (Ctrl + Shift + i for inspection)
 3. In the console, enter ``localStorage.getItem('np_token');``
 4. The text printed in the console is your NP_TOKEN copy and paste to `np_token.txt`
 5. put your proxy in `proxy.txt` file ex: `http://username:pass@ip:port`
